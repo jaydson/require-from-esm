@@ -15,11 +15,16 @@ Example:
 ```
 import require from 'require-from-esm';
 import path from 'path';
-const mymodule = require('./mymodule.cjs');
+const mymodule = require('../../mymodule.cjs'); // You should use `../../` for local modules *
 
 console.log(path.normalize('/foo/bar//baz/asdf/quux/..'));
 console.log(mymodule);
 ```
+
+For local modules you should use `require(../../MYMODULE)` instead of `require(./MYMODULE)`.  
+We don't have `__dirname` and `__pathname` globals when using ES modules.  
+No solution was found to fix it until now. 
+PRs are welcome.  
 
 ## How to use
 1) Be sure you're using Node.js >12.0.0  
