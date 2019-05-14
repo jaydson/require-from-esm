@@ -1,0 +1,30 @@
+{
+  "name": "require-from-esm",
+  "version": "0.0.1",
+  "description": "Require CJS modules from ES modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydson/require-from-esm.git"
+  },
+  "keywords": [
+    "modules",
+    "require",
+    "esm",
+    "import",
+    "cjs",
+    "ecma"
+  ],
+  "author": "Jaydson Gomes <jaydson@nasc.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaydson/require-from-esm/issues"
+  },
+  "homepage": "https://github.com/jaydson/require-from-esm#readme",
+  "engines" : { 
+    "node" : ">=12.0.0"
+  }
+}
