@@ -1,6 +1,6 @@
 {
   "name": "require-from-esm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "Require CJS modules from ES modules",
   "main": "index.js",
