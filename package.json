@@ -1,10 +1,11 @@
 {
   "name": "require-from-esm",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "type": "module",
   "description": "Require CJS modules from ES modules",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-modules --es-module-specifier-resolution=node test/test.js"
   },
   "repository": {
     "type": "git",
