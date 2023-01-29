@@ -3,7 +3,7 @@
 ⚠️ Warning note ⚠ ️  
 
 1) This is very experimental  
-2) Node.js' latest version (12.0.0) is required  
+2) Node.js version 12.2.0+ is required  
 3) You should run Node.js with the `--experimental-modules` flag  
 4) You probably should run Node.js with the `--es-module-specifier-resolution=node` flag  
 
@@ -27,7 +27,7 @@ No solution was found to fix it until now.
 PRs are welcome.  
 
 ## How to use
-1) Be sure you're using Node.js >12.0.0  
+1) Be sure you're using Node.js >12.2.0 
 2) The flags, you should use the flags: `--experimental-modules` and `--es-module-specifier-resolution=node`  
 3) You can use npm scripts to run your app, something like this:  
 ```
